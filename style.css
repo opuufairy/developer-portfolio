@@ -35,19 +35,20 @@ a {
 }
 
 .top_bar {
-  display: flex;
   background-image: url(img/top-banner.png);
   background-repeat: no-repeat;
   margin-bottom: 50px;
 }
 
 .dream_area {
-  display: flex;
   background-image: url(img/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
 }
 .site_title {
+  color: orange;
+}
+.site_title h2 {
   color: orange;
 }
 .half-width {
@@ -59,4 +60,36 @@ a {
 }
 .half-width img {
   width: 65%;
+}
+.flexable {
+  display: flex;
+}
+.experince {
+  background-image: url(img/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.box-view {
+  box-shadow: 10px 10px 30px gray;
+  width: 40%;
+  margin: 50px 70px;
+  padding: 20px;
+  border-radius: 10px;
+}
+#full-stack {
+  border-image: linear-gradient(green, red);
+  border-image-slice: 1;
+  border-left: 7px solid;
+  border-radius: 10px;
+}
+#baby_web {
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+  border-left: 7px solid;
+  border-radius: 10px;
+}
+.footer {
+  text-align: center;
 }
